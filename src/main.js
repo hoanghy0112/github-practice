@@ -4,6 +4,7 @@ const app = express()
 
 const port = 3000
 
+// Home page endpoint
 app.get('/', (req, res) => {
    return res.send('This is the homepage')
 })
