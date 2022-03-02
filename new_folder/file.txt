@@ -2,3 +2,4 @@ This is the new file
 Modify file
 Fix bug here
 renameMe branch
+new feature here

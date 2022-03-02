@@ -1,0 +1,3 @@
+file3
+new line
+other line
