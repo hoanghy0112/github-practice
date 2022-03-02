@@ -1,17 +1,11 @@
 const express = require('express')
+const router = require('./routes')
 
 const app = express()
 
 const port = 3000
 
-// Home page endpoint
-app.get('/', (req, res) => {
-   return res.send('This is the homepage')
-})
-
-app.get('/about', (_, res) => {
-   return res.send('This is about page')
-})
+app.use('', router)
 
 app.listen(port, () => {
    console.log(`Listening on port ${port}`)
