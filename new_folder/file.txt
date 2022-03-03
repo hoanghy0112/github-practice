@@ -7,7 +7,3 @@ new feature here
 new line
 
 This line is added in github website
-
-production code
-
-bla bla
